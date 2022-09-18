@@ -13,4 +13,4 @@ spring:
             ddl-auto: update
 
 app:
-    message: Welcome to Quality Assurance Employee DashBoard 
+    message: Welcome to Quality Assurance Employee DashBoard
