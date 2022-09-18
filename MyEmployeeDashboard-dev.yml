@@ -1,0 +1,15 @@
+server:
+    port: 8000
+spring:
+    config:
+        import: configserver:http://localhost:8888
+    datasource:
+        url: abc
+        username: root
+        password: root
+    jpa:
+        show-sql: true
+        hibernate:
+            ddl-auto: update
+app:
+    message: Welcome to Development Employee DashBoard
